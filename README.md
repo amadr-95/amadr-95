@@ -1,7 +1,7 @@
 # Hi there 👋
 ## A little about me 
 
-```
+```java
 public class Developer {
     private String name;
     private int age;
