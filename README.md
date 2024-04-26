@@ -17,7 +17,7 @@ import java.util.List;
 public class Developer {
     private String name;
     private int age;
-    private String proffesion;
+    private String profession;
     private List<String> hobbies;
 
     public Developer() {
