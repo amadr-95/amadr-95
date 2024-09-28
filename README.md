@@ -26,7 +26,9 @@ public class Developer {
         LocalDate birth = LocalDate.parse("1995-10-07");
         this.age = Period.between(birth,LocalDate.now()).getYears();
         this.proffesion = "Software Engineer";
-        this.hobbies = new ArrayList<>(List.of("gym", "hiking", "travel", "boardgames", "videogames", "anime", "coding"));
+        this.hobbies = new ArrayList<>(
+            List.of("gym", "hiking", "travel", "boardgames", "videogames", "anime", "coding")
+        );
     }
 }
 ```
